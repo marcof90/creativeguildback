@@ -20,7 +20,7 @@ class AuthController extends Controller
      */
 
     /**
-     * @api {post} /api/register 02 Register
+     * @api {post} /register 02 Register
      * @apiVersion 0.0.1
      * @apiGroup Auth
      * @apiName Register
@@ -111,7 +111,7 @@ class AuthController extends Controller
     }
 
     /**
-     * @api {post} /api/login 01 Login
+     * @api {post} /login 01 Login
      * @apiVersion 0.0.1
      * @apiGroup Auth
      * @apiName Login

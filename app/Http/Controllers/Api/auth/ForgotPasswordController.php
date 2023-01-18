@@ -22,7 +22,7 @@ class ForgotPasswordController extends Controller
      */
 
     /**
-     * @api {post} password/email 03 Get code
+     * @api {post} /password/email 03 Get code
      * @apiVersion 0.0.1
      * @apiGroup Auth
      * @apiName Get code

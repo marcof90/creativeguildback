@@ -16,7 +16,7 @@ class UserController extends Controller
     }
 
     /**
-     * @api {get} users/ 01 Users list
+     * @api {get} /users/ 01 Users list
      * @apiVersion 0.0.1
      * @apiGroup Users
      * @apiName Users list
@@ -100,7 +100,7 @@ class UserController extends Controller
 
 
     /**
-     * @api {get} users/:id 02 Get User by id
+     * @api {get} /users/:id 02 Get User by id
      * @apiVersion 0.0.1
      * @apiGroup Users
      * @apiName Get User by id

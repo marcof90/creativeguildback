@@ -21,7 +21,7 @@ class ResetPasswordController extends Controller
      */
 
     /**
-     * @api {post} password/reset 04 Reset Password
+     * @api {post} /password/reset 04 Reset Password
      * @apiVersion 0.0.1
      * @apiGroup Auth
      * @apiName Reset Password

@@ -1,18 +1,18 @@
 {
-    "name" : "Creative Guild Test",
+    "name": "Creative Guild Test",
+    "title": "Api documentation",
     "version": "0.0.1",
-    "header":
-        {
-            "title": "CGT",
-            "filename": "header.md"
-        },
-    "footer":
-        {
-            "title": "CGT",
-            "filename": "footer.md"
-        },
-    "apidoc":
-        {
-            "title": "API DOCUMENTATION"
-        }
+    "url": "https://creativeguildback-production.up.railway.app/api",
+    "sampleUrl": "https://creativeguildback-production.up.railway.app/api",
+    "header": {
+        "title": "CGT",
+        "filename": "header.md"
+    },
+    "footer": {
+        "title": "CGT",
+        "filename": "footer.md"
+    },
+    "template": {
+        "withCompare": false
+    }
 }
