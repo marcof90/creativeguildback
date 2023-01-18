@@ -10,7 +10,20 @@ class ResetPassword extends Model
     use HasFactory;
 
     protected $fillable = [
-        'email', 'code'
+        'email', 'code', 'created_at'
     ];
+
+    /**
+     * check if the code is expire then delete
+     *
+     * @return void
+     */
+    public function expired()
+    {
+        if ( now() > $this->created_at->addDay()) {
+            return true;
+        }
+        return false;
+    }
 
 }
